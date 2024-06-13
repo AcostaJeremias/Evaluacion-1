@@ -23,3 +23,4 @@ git commit -m "...": agrega una descripcion/nombre al archivo
 git branch -m main: hace una rama en main
 git push origin main: mueve el archivo hacia la rama en main
 "main" es una rama principal
+papacho
