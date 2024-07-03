@@ -1,0 +1,13 @@
+-utilizamos git remote add origin para poder añadir nuestro repositor, 
+si no lo utlizamos no vamos a añadir el repositor que queremos añadir.
+para eso nos pedira el link del repósitorio.
+
+-la diferencia entre git add y git push es que git add añade un archivo
+y git push prepara el archivo para subirlo.
+
+-utilizamos git push origin main porque queremos enviar las cosas hacia la 
+rama main, si usaramos solo git push solamente prepararia el archivo para 
+que se pueda subir.
+
+-los estados (3 colores) que puede tener un archivo son: rojo(que esta sin 
+guardar), verde (que ya se subio), y gris (que el archivo ya esta guardado)
