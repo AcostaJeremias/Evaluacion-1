@@ -1,0 +1,27 @@
+paso 1: logiarse
+git config --global user.name
+git config --global user.email
+
+paso 2: iniciar un repositor 
+git init 
+
+paso 3: indicar a que repositor lo vamos a subir 
+primero tenemos que ver si ya no hay otro repositor para eso
+hay que usar
+git remote -v: podemos ver si esta
+git remote remove origin: en caso de que haya uno lo borra
+git remote add origin (link): con este podemos añadir nuestro repositor
+
+*Luego de eso: verificar el estado del archivo con git status: 
+en rojo esta sin añadir
+en verde ya se puede guardar este archivo
+en gris significa que ya esta guardado
+
+paso 4: guardado
+git add Archivo.txt
+git commit -m "...": agrega una descripcion/nombre al archivo
+git branch -m main: hace una rama en main
+git push origin main: mueve el archivo hacia la rama en main
+"main" es una rama principal
+
+
